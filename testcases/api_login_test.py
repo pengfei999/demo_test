@@ -19,6 +19,7 @@ class TestCaseApiLogin(HttpRunner):
     def test_start(self, param):
         super().test_start(param)
 
+
     config = (
         Config("登录")
         .base_url("http://api.keyou.site:8000")
@@ -43,3 +44,4 @@ class TestCaseApiLogin(HttpRunner):
 
 if __name__ == "__main__":
     TestCaseApiLogin().test_start()
+    print("ceshi123")
