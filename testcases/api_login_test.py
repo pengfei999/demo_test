@@ -44,4 +44,3 @@ class TestCaseApiLogin(HttpRunner):
 
 if __name__ == "__main__":
     TestCaseApiLogin().test_start()
-    print("ceshi123")
