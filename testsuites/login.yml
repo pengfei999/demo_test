@@ -1,0 +1,13 @@
+config:
+  name: 登录接口套件
+
+testcases:
+-
+  name: 登录接口
+  parameters:
+    - username-password:
+      - ["keyou1", "123456"]
+      - ["user2", "222222"]
+      - ["user3", "333333"]
+
+  testcase: testcases\api_login.yml

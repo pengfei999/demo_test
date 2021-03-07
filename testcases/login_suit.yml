@@ -1,0 +1,11 @@
+config:
+  name: test suite demo
+
+testcases:
+-
+  name: test case 1
+  parameters:
+ #   - username-password: ${get_account()}
+    username: ["keyou1","keyou2"]
+    password: ["123456","123456"]
+  testcase: testcases\api_login.yml
